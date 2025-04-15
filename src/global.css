@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Arabic */
+@font-face {
+  font-family: 'UthmanicHafs';
+  src: url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+}
+
+.font-arabic {
+  font-family: 'Amiri Quran', serif;
+  line-height: 2.5;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
